@@ -17,7 +17,12 @@ class Bank{
     string branch;
     long long  int phone_no;
     
-    void EnterDetails(){
+    void EnterDetails();//For inputing details
+    
+    void show_details();//For outputting details of the account 
+};
+
+void Bank::EnterDetails(){
         
 
         cout<<"Enter branch name: ";
@@ -43,9 +48,10 @@ class Bank{
         cout<<endl;
 
       
-    }
-    
-    void show_details(){
+}
+
+
+void Bank::show_details(){
 
       cout<<"Account number: "<<account_no<<endl<<endl;
       cout<<"Name: "<<name<<endl<<endl;
@@ -53,8 +59,8 @@ class Bank{
       cout<<"Branch: "<<branch<<endl<<endl;
       cout<<"pin: "<<pin;             
 
-    }
-};
+}
+
 
 int main(){
 
