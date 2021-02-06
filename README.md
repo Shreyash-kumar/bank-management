@@ -1,2 +1,3 @@
 # bank-management
-nothing
+This code is for learning purpose
+
